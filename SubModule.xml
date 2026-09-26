@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/BUTR/Bannerlord.XmlSchemas/master/SubModule.xsd">
+  <Id value="AggressiveAiStandalone" />
+  <Name value="AggressiveAiStandalone" />
+  <Version value="v0.0.1" />
+  <DefaultModule value="false" />
+  <ModuleCategory value="Singleplayer" />
+  <ModuleType value="Community" />
+  <DependedModules>
+    <DependedModule Id="Bannerlord.Harmony" />
+    <DependedModule Id="Native" />
+    <DependedModule Id="SandBoxCore" />
+    <DependedModule Id="Sandbox" />
+    <DependedModule Id="CustomBattle" />
+  </DependedModules>
+  <SubModules>
+    <SubModule>
+      <Name value="AggressiveAiStandalone" />
+      <DLLName value="AggressiveAiStandalone.dll" />
+      <SubModuleClassType value="AggressiveAi.Standalone.SubModule" />
+      <Tags />
+    </SubModule>
+  </SubModules>
+</Module>
